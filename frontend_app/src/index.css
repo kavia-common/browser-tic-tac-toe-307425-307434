@@ -1,5 +1,19 @@
+/* Global base styles */
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
   margin: 0;
+
+  /* Deep red global application background */
+  background: #7a0000;
+
+  /* Ensure default text remains readable on deep red */
+  color: #ffffff;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
